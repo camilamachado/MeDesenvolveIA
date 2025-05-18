@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "bf7d15ea-2594-4cb1-a89a-3802c6b5efb3",
+		"name": "MeDesenvolveIA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "43765497",
+		"_collection_link": "https://camilamelomachado.postman.co/workspace/Camila-Melo-Machado's-Workspace~c1facee1-81cc-409f-8ddc-1ba9adde1b30/collection/43765497-bf7d15ea-2594-4cb1-a89a-3802c6b5efb3?action=share&source=collection_link&creator=43765497"
+	},
+	"item": [
+		{
+			"name": "CriaçãoDePDI",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"Camila\",\r\n  \"cargoAtual\": \"Tech Lead\",\r\n  \"cargoDesejado\": \"Arquiteta de Software\",\r\n  \"empresaAlvo\": \"Banco Carrefour\",\r\n  \"habilidadesFortes\": [\r\n    \"Liderança\", \"Mentoria\", \"Code Review\"\r\n  ],\r\n  \"habilidadesADesenvolver\": [\r\n    \"Google Cloud\", \"Apigee\", \"Terraform\"\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5008/api/v1/pdis"
+			},
+			"response": []
+		}
+	]
+}
