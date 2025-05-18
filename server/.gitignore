@@ -1,0 +1,69 @@
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Bb]in/
+[Oo]bj/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.config
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Rider 2021.1 and later
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/shelf/
+
+# Others
+*.dbmdl
+*.jfm
+*.pdb
+*.db
+*.jfm
+*.jfm
+*.tlog
+*.tlog
+*.log
+
+# Auto-generated files
+Generated\ Files/
+*.g.i.cs
+*.g.cs
+
+# ASP.NET Core
+wwwroot/lib/
+wwwroot/css/
+wwwroot/js/
+*.runtimeconfig.json
+*.db
+*.db-wal
+*.db-shm
+*.pdb
+*.cache
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+
+# Publish Files
+publish/
+output/
